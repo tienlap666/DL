@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Xem danh sach">
+        <menu>
+            <item
+                android:id="@+id/mxemSinhVien"
+                android:title="sinh vien"/>
+            <item
+                android:id="@+id/mxemLopHoc"
+                android:title="lop hoc"/>
+        </menu>
+    </item>
+    <item
+        android:title="Sua danh sach"/>
+    <item android:title="Xoa danh sach"/>
+    <item android:title="In danh sach"/>
+
+</menu>

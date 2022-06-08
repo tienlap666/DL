@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Máy 1"
+        android:background="#03A9F4"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/La_1"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_2"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_3"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b1fv"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ketQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="#FFEB3B"
+        android:text="Kết quả:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Máy 2"
+        android:background="#03A9F4"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/La_4"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_5"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b1fv"/>
+        <ImageView
+            android:id="@+id/La_6"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b1fv"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ketQua2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:textSize="20dp"
+        android:text="Ket Qua"/>
+    <TextView
+        android:id="@+id/Dem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D51E10"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="Loading..."/>
+    <Button
+        android:id="@+id/batDau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#E91E63"/>
+    <Button
+        android:id="@+id/Dung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dừng"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#E91E63"/>
+</LinearLayout>
